@@ -1,0 +1,9 @@
+Started Loki using Docker:
+
+docker run -d -p 3100:3100 grafana/loki:2.9.0 -config.file=/etc/loki/local-config.yaml
+
+Viewed logs using:
+docker logs <container_id>
+
+Loki endpoint:
+http://localhost:3100
